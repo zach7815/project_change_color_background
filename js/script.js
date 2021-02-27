@@ -13,7 +13,7 @@ function randomColor(){
     return color
 };
 
-body.addEventListener("click", function(){
+button.addEventListener("click", function(){
     body.style.backgroundColor = randomColor();
 })
 
